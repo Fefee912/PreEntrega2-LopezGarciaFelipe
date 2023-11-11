@@ -1,0 +1,25 @@
+/** Footer Index **/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pie{
+        margin-top: 40px;
+        text-align: center;
+        display: inline-block;
+        svg{
+            color: $color-general;
+        }
+    }
+}
+
+/** Footer Demas HTML **/
+
+.pie-e{
+    margin-bottom: 13px;
+    svg{
+        color: $color-general;
+    }
+}
+
