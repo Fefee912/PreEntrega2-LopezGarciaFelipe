@@ -1,12 +1,10 @@
 /** Index **/
 .cabeza{
     div{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         margin-top: 10px;
         margin-right: 15px;
         margin-left: 15px;
+        @include flex(flex, space-between, center);
         nav{
             ul{
                 li{

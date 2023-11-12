@@ -1,9 +1,7 @@
 /** Footer Index **/
 
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(flex, center, center);
     .pie{
         margin-top: 40px;
         text-align: center;
