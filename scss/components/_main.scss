@@ -21,20 +21,24 @@
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
     .evento-1{
-        margin-bottom: 19px;
         a{
             text-decoration: none;
             color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
         }
         img{
             border-radius: 15px;
         }
     }
     .evento-2{
-        margin-bottom: 19px;
         a{
             text-decoration: none;
             color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
         }
         img{
             border-radius: 15px;
@@ -44,6 +48,9 @@
         a{
             text-decoration: none;
             color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
         }
         img{
             border-radius: 15px;
@@ -53,13 +60,13 @@
         a{
             text-decoration: none;
             color: $color-general;
+            h2{
+                margin-top: 5px;
+            }
         }
         img{
             border-radius: 15px;
         }
-    }
-    .h2-hover{
-        display: none
     }
 }
 

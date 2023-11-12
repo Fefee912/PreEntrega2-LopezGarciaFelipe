@@ -3,11 +3,22 @@
 footer{
     @include flex(flex, center, center);
     .pie{
+        width: 30px;
+        height: 28px;
         margin-top: 40px;
         text-align: center;
-        display: inline-block;
-        svg{
+        background-color: $color-general;
+        border-radius: 20px;
+        &:hover{
+            transition: all 0.2s;
+            background-color: #212529;
             color: $color-general;
+            svg{
+                color: $color-general;
+            }
+        }
+        svg{
+            color: #212529;
         }
     }
 }
@@ -15,9 +26,21 @@ footer{
 /** Footer Demas HTML **/
 
 .pie-e{
+    width: 28px;
+    height: 26px;
+    background-color: $color-general;
     margin-bottom: 13px;
+    text-align: center;
+    border-radius: 20px;
+    &:hover{
+        transition: all 0.2s;
+        background-color: #212529;
+        svg{
+            color: $color-general;
+        }
+    }
     svg{
-        color: $color-general;
+        color:#212529;
     }
 }
 
